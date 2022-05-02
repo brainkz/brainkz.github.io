@@ -1,0 +1,27 @@
+body {padding-left: max(11em,12%);
+      padding-right: 2em;
+      color: #28FE14;
+      background-color: #000000;
+      font-family: monospace;
+      text-align: justify;}
+a:link {color: #28FE14;
+        text-decoration: underline; }
+a:visited{color: #018000;
+          text-decoration: underline; }
+a:hover{color: #000000;
+        background-color: #28FE14;
+        text-decoration: underline; }
+ul.navbar{color: #28FE14;
+          position: absolute;
+          top: 2em;
+          left: 1em;
+          width: 9em;
+          font-size: 1.1em;
+          list-style-type: none;
+          padding: 0;
+          margin: 0;}
+address{margin-top: 1em;
+        padding-top: 1em;
+        border-top: thin dotted;
+        border-bottom: thin dotted;}
+details { display: inline; }

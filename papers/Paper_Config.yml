@@ -1,0 +1,117 @@
+tcad_qucts:
+    book: tcad
+    authors:
+        - me
+        - TJ
+        - EGF
+    title: QuCTS - single flux Quantum Clock Tree Synthesis
+    published: False
+    doi: 10.1109/TCAD.2021.3123141
+    pdf: "papers/QuCTS.pdf"
+tcad_sprout:
+    book: tcad
+    authors:
+        - me
+        - ARoy
+        - MN
+        - VS
+        - EGF
+    title: SPROUT - Smart Power ROUting Tool for Board-Level Exploration and Prototyping
+    published: False
+    doi: 10.1109/TCAD.2021.3101411
+    pdf: "papers/SPROUT_TCAD.pdf"
+tcad_exploration:
+    book: tcad
+    authors:
+        - me
+        - KX
+        - MP
+        - JSO
+        - VS
+        - EGF
+    title: Power Delivery Exploration Methodology Based on Constrained Optimization
+    year: 2020
+    month: 9
+    vol: 39
+    num: 9
+    pp: [1916, 1924]
+    doi: 10.1109/TCAD.2019.2925397
+    pdf: "papers/TCAD_Exploration.pdf"
+mirror: 
+    book: tcasi
+    authors:
+        - me
+        - EGF
+    title: Effective Resistance of Finite Two-Dimensional Grids Based on Infinity Mirror Technique
+    year: 2020
+    month: 9
+    vol: 67
+    num: 9
+    pp: [3224, 3233]
+    doi: 10.1109/TCSI.2020.2985652   
+    pdf: "papers/TCASI_Inf_Mirror.pdf" 
+truncated: 
+    book: tcasi
+    authors:
+        - me
+        - EGF
+    title: Effective Resistance of Two-Dimensional Truncated Infinite Mesh Structures
+    year: 2019
+    month: 11
+    vol: 66
+    num: 11
+    pp: [4368,4376]
+    doi: 10.1109/TCSI.2019.2933749
+    pdf: "papers/TCASI_Trunc.pdf" 
+dac_sprout:
+    book: dac
+    authors:
+        - me
+        - ARoy
+        - MN
+        - VS
+        - EGF
+    title: SPROUT - Smart Power ROUting Tool for Board-Level Exploration and Prototyping
+    year: 2021
+    month: 12
+    pp: [283, 288]
+    doi: 10.1109/DAC18074.2021.9586128
+    pdf: "papers/SPROUT_DAC.pdf"
+routing:
+    book: iscas
+    authors:
+        - me
+        - ARoy
+        - MN
+        - VS
+        - EGF
+    title: Graph-Based Power Network Routing for Board-Level High Performance Systems
+    year: 2020
+    month: 10
+    doi: 10.1109/ISCAS45731.2020.9181140
+    pdf: "papers/ISCAS_Routing.pdf"
+versatile:
+    book: iscas
+    authors:
+        - me
+        - KX
+        - MP
+        - JSO
+        - VS
+        - EGF
+    title: Versatile Framework for Power Delivery Exploration
+    year: 2018
+    month: 5
+    doi: 10.1109/ISCAS.2018.8351478
+    pdf: "papers/ISCAS_Exploration.pdf"
+first:
+    book: pemc
+    authors:
+        - me
+        - AR
+        - YLF
+    title: Time Domain Optimization of Voltage and Current THD for a Three-Phase Cascaded H-Bridge Inverter
+    year: 2016
+    month: 9
+    doi: 10.1109/EPEPEMC.2016.7752002
+    pdf: "papers/PEMC_THD.pdf"
