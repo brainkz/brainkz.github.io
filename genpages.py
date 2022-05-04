@@ -79,7 +79,7 @@ def format_list(file):
             formatted_entry = format_entry(ieee, bib, d)
             conf[formatted_entry] = year*12+month
     jrnl_str = '<h2 id="journal">Journal articles</h2>\n'  + '\n'.join(sorted(jrnl, reverse=True, key=jrnl.get))
-    conf_str = '<h2 id="conference">Conference papers </h2><a href=#up>up^</a>\n' + '\n'.join(sorted(conf, reverse=True, key=conf.get))
+    conf_str = '<h2 id="conference">Conference papers </h2><a href=#up>Return to top</a>\n' + '\n'.join(sorted(conf, reverse=True, key=conf.get))
     return jrnl_str, conf_str
 
 def make_pub(home=HOME):
