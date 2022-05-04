@@ -1,5 +1,5 @@
 
-HOME = '/Users/brainkz/Coding/Website'
+HOME = '/Users/brainkz/Coding/brainkz.github.io'
 
 HEADER = '''
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -50,6 +50,15 @@ He is currently completing the Ph.D. degree in Electrical and Computer Engineeri
 His current research interests include graph theory, physical design of integrated circuits, and electronic design automation of conventional and emerging VLSI technologies.</p>
 '''
 
+SKIP = '''
+<h3 id="up">Skip to</h3>
+<p>
+<a href="#conference">Conference papers</a><br>
+<a href="#presentation">Talks</a><br>
+<a href="#dissertation">Dissertation</a>
+</p>
+'''
+
 JOURNALS = {
 'tcad' : 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems',
 'tcasi': 'IEEE Transactions on Circuits and Systems I: Regular Papers',
@@ -88,5 +97,27 @@ PLAIN_NAMES = {
 'TJ'	: 'T. Jabbari',
 'VS'	: 'V. Srinivas',
 }
+
+PRESENTATIONS = '''
+<h2 id="presentation">Talks</h2><a href=#up>up^</a>
+<p>
+<strong>R. Bairamkulov</strong>, "Graph Algorithms for VLSI Power and Clock Networks," University of Rochester, Rochester, New York, April 27, 2022.<br>
+<a href="talks/Defense.pdf">PDF</a> <a href="talks/maps.pptx">Maps</a> <a href="talks/Defense_Supplemental.zip">Supplemental Materials</a>
+</p>
+'''
+
+DISSERTATION = '''
+<h2 id="dissertation">Dissertation</h2><a href=#up>up^</a>
+<p>
+<strong>R. Bairamkulov</strong>, "Graph Algorithms for VLSI Power and Clock Networks," University of Rochester, Rochester, New York, April 2022.
+<details>
+<summary>
+<u>Bibtex</u>
+</summary>
+<span>@phdthesis{bairamkulov_2022_thesis,<br>&emsp;author = "R. Bairamkulov",<br>&emsp;title = "Graph Algorithms for VLSI Power and Clock Networks",<br>&emsp;school = "University of Rochester",<br>&emsp;year = "2022",<br>}
+</span>
+</details>
+</p>
+'''
 
 MONTHS = { 'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April', 'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August', 'Sep': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December', 1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December',}

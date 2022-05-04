@@ -1,8 +1,8 @@
 import csv
 from yaml import load, dump, Loader, Dumper
 from requests.structures import CaseInsensitiveDict as CID
-from boiler_plate import HOME, HEADER, BODY_HEADER, NAVBAR, FOOTER, \
-JOURNALS, CONFERENCES, JC, PLAIN_NAMES, FANCY_NAMES, MONTHS, ADDRESS, BIO
+from boiler_plate import HOME, HEADER, BODY_HEADER, NAVBAR, FOOTER, SKIP, JOURNALS,\
+CONFERENCES, JC, PLAIN_NAMES, FANCY_NAMES, MONTHS, ADDRESS, BIO, PRESENTATIONS, DISSERTATION
 from datetime import date
 import os
 
@@ -78,8 +78,8 @@ def format_list(file):
             ieee, bib = format(key, d, False)
             formatted_entry = format_entry(ieee, bib, d)
             conf[formatted_entry] = year*12+month
-    jrnl_str = '<h2>Journal articles</h2>\n'  + '\n'.join(sorted(jrnl, reverse=True, key=jrnl.get))
-    conf_str = '<h2>Conference papers</h2>\n' + '\n'.join(sorted(conf, reverse=True, key=conf.get))
+    jrnl_str = '<h2 id="journal">Journal articles</h2>\n'  + '\n'.join(sorted(jrnl, reverse=True, key=jrnl.get))
+    conf_str = '<h2 id="conference">Conference papers </h2><a href=#up>up^</a>\n' + '\n'.join(sorted(conf, reverse=True, key=conf.get))
     return jrnl_str, conf_str
 
 def make_pub(home=HOME):
@@ -88,8 +88,11 @@ def make_pub(home=HOME):
         f.write(HEADER)
         f.write(NAVBAR)
         f.write(BODY_HEADER)
+        f.write(SKIP)
         f.write(jrnl_str)
         f.write(conf_str)
+        f.write(PRESENTATIONS)
+        f.write(DISSERTATION)
         f.write(FOOTER)
 
 def make_index(home=HOME):
