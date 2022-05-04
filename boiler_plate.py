@@ -102,7 +102,7 @@ PRESENTATIONS = '''
 <h2 id="presentation">Talks</h2><a href=#up>Return to top</a>
 <p>
 <strong>R. Bairamkulov</strong>, "Graph Algorithms for VLSI Power and Clock Networks," University of Rochester, Rochester, New York, April 27, 2022.<br>
-<a href="talks/Defense.pdf">PDF</a> <a href="talks/maps.pptx">Maps</a> <a href="talks/Defense_Supplemental.zip">Supplemental Materials</a>
+<a href="talks/Defense.pdf">PDF</a> <a href="talks/maps.pptx">Maps</a> <a href="talks/Defense_Supplemental.zip">Supplemental Material</a>
 </p>
 '''
 
