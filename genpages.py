@@ -16,17 +16,19 @@ def format(key, entry, is_journal):
     *all, last = [FANCY_NAMES[a] for a in entry['authors']]
     comma_and = ', and ' if len(all) > 2 else ' and '
     ieee_str = ', '.join(all) + comma_and + last + ', '
+    if is_journal:
+        bib_key = '@article'
+        book_key = 'journal'
+    else:
+        bib_key = '@inproceedings'
+        book_key = 'booktitle'
 
-    bib_str =   '@article{' + f'bairamkulov_{key},\n' + \
+    bib_str =   bib_key + '{' + f'bairamkulov_{key},\n' + \
                 'author = "' + ' and '.join(bib_authors) + '",\n'
 
     ieee_str += '"' + entry["title"] + '," '
     book = JC[entry['book']]
     ieee_str += f"<i>{book}</i>"
-    if is_journal:
-        book_key = 'journal'
-    else:
-        book_key = 'booktitle'
     bib_str += f'{book_key} = "' + book + '",\n'
     if not entry.get('published', True):
         ieee_str += " (in press)."
