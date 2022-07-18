@@ -104,7 +104,7 @@ versatile:
     month: 5
     doi: 10.1109/ISCAS.2018.8351478
     pdf: "papers/ISCAS_Exploration.pdf"
-first:
+pemc:
     book: pemc
     authors:
         - me
@@ -113,5 +113,6 @@ first:
     title: Time Domain Optimization of Voltage and Current THD for a Three-Phase Cascaded H-Bridge Inverter
     year: 2016
     month: 9
+    pp: [227, 232]
     doi: 10.1109/EPEPEMC.2016.7752002
     pdf: "papers/PEMC_THD.pdf"
