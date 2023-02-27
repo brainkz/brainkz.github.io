@@ -1,5 +1,6 @@
+import os
 
-HOME = '/Users/brainkz/Coding/brainkz.github.io'
+HOME = os.getcwd()
 
 HEADER = '''
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -32,20 +33,33 @@ BODY_HEADER = '''
 
 ADDRESS = '''
 <address>
-  Ph.D. candidate<br>
-  Department of Electrical and Computer Engineering<br>
-  University of Rochester<br>
-  501 Computer Studies Building<br>
-  Rochester, NY 14627<br>
+  Postdoctoral Scholar<br>
+  Integrated Systems Laboratory LSI<br>
+  EPFL, Building INF 339<br>
+  Lausanne 1015, Switzerland<br>
   <img width="100em" src="images/part1.png" alt="part1">
   <img width="190em" src="images/part2.png" alt="part2">
 </address>
 '''
 
+WELCOME = '''
+<p>Hello and welcome to my webpage.</p>
+
+<p>I am a postdoctoral scholar in the&nbsp;<a href="https://www.epfl.ch/labs/lsi/">Integrated Systems Laboratory</a>&nbsp;(LSI) at&nbsp;EPFL, Lausanne, Switzerland, working alongside <a href="https://si2.epfl.ch/~demichel/">Professor Giovanni De Micheli</a>&nbsp;developing electronic design automation tools for the emerging VLSI technologies.&nbsp;</p>
+
+<p>I completed my Ph.D. in Electrical and Computer Engineering at the&nbsp;<a href="https://www.hajim.rochester.edu/ece/">University of Rochester</a>, Rochester, New York, under the supervision of <a href="http://www2.ece.rochester.edu/users/friedman/">Professor E. G. Friedman</a>.</p>
+
+<p>I was an intern at Qualcomm Inc., San Diego, California, during the summers of 2018 and 2020.</p>
+
+<p>Prior to my doctoral studies, I received my B.Eng. in Electrical and Electronic Engineering at <a href="https://nu.edu.kz">Nazarbayev University</a>, Astana, Kazakhstan.</p>
+
+<p>For more information, please see the <a href="pub.html">publications</a> section, or my profile at <a href="https://scholar.google.com/citations?hl=en&user=RgDE-cIAAAAJ">Google Scholar</a>.</p>
+'''
+
 BIO = '''
 <p>Rassul Bairamkulov was born in August 1994 in Karaganda, Kazakhstan.<br>
 He received a Bachelor of Engineering degree in Electrical and Electronic Engineering from Nazarbayev University in Astana, Kazakhstan in 2016, and a Master of Science degree in Electrical and Computer Engineering from the University of Rochester in Rochester, NY in 2018.
-In the summers of 2018 and 2020, he interned with Qualcomm in San Diego, CA.
+I was an intern at Qualcomm in San Diego, California, during the summers of 2018 and 2020
 He is currently completing the Ph.D. degree in Electrical and Computer Engineering from the University of Rochester in Rochester, NY under the supervision of Prof. Eby G. Friedman.
 His current research interests include graph theory, physical design of integrated circuits, and electronic design automation of conventional and emerging VLSI technologies.</p>
 '''
@@ -68,7 +82,12 @@ CONFERENCES = {
 'dac'  : 'Proceedings of the ACM/IEEE Design Automation Conference',
 'pemc' : 'Proceedings of the IEEE International Power Electronics and Motion Control Conference'
 }
-JC = {**JOURNALS,**CONFERENCES}
+BOOKS = {
+'springer_cham' : 'Springer, Cham, Switzerland'
+}
+
+
+JC = {**JOURNALS,**CONFERENCES, **BOOKS}
 
 FANCY_NAMES = {
 'me'	: '<strong>R. Bairamkulov</strong>',
@@ -121,3 +140,7 @@ DISSERTATION = '''
 '''
 
 MONTHS = { 'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April', 'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August', 'Sep': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December', 1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December',}
+
+
+PROJECTS = '''
+'''

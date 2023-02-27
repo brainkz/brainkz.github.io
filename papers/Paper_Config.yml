@@ -1,14 +1,31 @@
+graphs_in_vlsi_book:
+    type: book
+    authors:
+        - me
+        - EGF
+    publisher: springer_cham
+    title: Graphs in VLSI
+    published: True
+    year: 2023
+    isbn: 978-3-031-11047-4
+    url: "https://link.springer.com/book/10.1007/978-3-031-11047-4"
 tcad_qucts:
+    type: journal
     book: tcad
     authors:
         - me
         - TJ
         - EGF
     title: QuCTS - single flux Quantum Clock Tree Synthesis
-    published: False
     doi: 10.1109/TCAD.2021.3123141
     pdf: "papers/QuCTS.pdf"
+    year: 2022
+    month: 10
+    vol: 41
+    num: 10
+    pp: [3346, 3358]
 tcad_sprout:
+    type: journal
     book: tcad
     authors:
         - me
@@ -17,10 +34,15 @@ tcad_sprout:
         - VS
         - EGF
     title: SPROUT - Smart Power ROUting Tool for Board-Level Exploration and Prototyping
-    published: False
     doi: 10.1109/TCAD.2021.3101411
+    year: 2022
+    vol: 41
+    num: 7
+    month: 7
+    pp: [2263, 2275]
     pdf: "papers/SPROUT_TCAD.pdf"
 tcad_exploration:
+    type: journal
     book: tcad
     authors:
         - me
@@ -38,6 +60,7 @@ tcad_exploration:
     doi: 10.1109/TCAD.2019.2925397
     pdf: "papers/TCAD_Exploration.pdf"
 mirror: 
+    type: journal
     book: tcasi
     authors:
         - me
@@ -51,6 +74,7 @@ mirror:
     doi: 10.1109/TCSI.2020.2985652   
     pdf: "papers/TCASI_Inf_Mirror.pdf" 
 truncated: 
+    type: journal
     book: tcasi
     authors:
         - me
@@ -64,6 +88,7 @@ truncated:
     doi: 10.1109/TCSI.2019.2933749
     pdf: "papers/TCASI_Trunc.pdf" 
 dac_sprout:
+    type: conf
     book: dac
     authors:
         - me
@@ -78,6 +103,7 @@ dac_sprout:
     doi: 10.1109/DAC18074.2021.9586128
     pdf: "papers/SPROUT_DAC.pdf"
 routing:
+    type: conf
     book: iscas
     authors:
         - me
@@ -91,6 +117,7 @@ routing:
     doi: 10.1109/ISCAS45731.2020.9181140
     pdf: "papers/ISCAS_Routing.pdf"
 versatile:
+    type: conf
     book: iscas
     authors:
         - me
@@ -105,6 +132,7 @@ versatile:
     doi: 10.1109/ISCAS.2018.8351478
     pdf: "papers/ISCAS_Exploration.pdf"
 pemc:
+    type: conf
     book: pemc
     authors:
         - me
