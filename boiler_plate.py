@@ -16,6 +16,7 @@ NAVBAR = '''
 <nav>
   <a href="index.html">Home        </a>
   <a href="pub.html"  >Publications</a>
+  <a href="Rassul_Bairamkulov_CV_2023.pdf"  > CV    </a>
 </nav>
 '''
 
@@ -28,19 +29,22 @@ FOOTER = '''
 BODY_HEADER = '''
 <!-- Main content -->
 <h1>Rassul Bairamkulov</h1>
-<!-- <h2>Ph.D. candidate, University of Rochester</h2> -->
+<h3>Advancing EDA tools for next-generation computing systems</h3>
 '''
+# <h2>Postdoctoral Scholar at EPFL</h2>
+# <h3>Advancing EDA for next-generation computing systems</h3>
 
 ADDRESS = '''
 <address>
-  Postdoctoral Scholar<br>
+  <br><br><br>
   Integrated Systems Laboratory LSI<br>
   EPFL, Building INF 339<br>
   Lausanne 1015, Switzerland<br>
-  <img width="100em" src="images/part1.png" alt="part1">
-  <img width="190em" src="images/part2.png" alt="part2">
+  rassul.bairamkulov@epfl.ch<br>
 </address>
 '''
+  # <img width="100em" src="images/part1.png" alt="part1">
+  # <img width="190em" src="images/part2.png" alt="part2">
 
 WELCOME = '''
 <p>Hello and welcome to my webpage.</p>
@@ -53,7 +57,7 @@ WELCOME = '''
 
 <p>Prior to my doctoral studies, I received my B.Eng. in Electrical and Electronic Engineering at <a href="https://nu.edu.kz">Nazarbayev University</a>, Astana, Kazakhstan.</p>
 
-<p>For more information, please see the <a href="pub.html">publications</a> section, or my profile at <a href="https://scholar.google.com/citations?hl=en&user=RgDE-cIAAAAJ">Google Scholar</a>.</p>
+<p>For more information, please see the <a href="pub.html">publications</a> section or my profile at <a href="https://scholar.google.com/citations?hl=en&user=RgDE-cIAAAAJ">Google Scholar</a>.</p>
 '''
 
 BIO = '''
@@ -78,6 +82,7 @@ JOURNALS = {
 'tcasi': 'IEEE Transactions on Circuits and Systems I: Regular Papers',
 }
 CONFERENCES = {
+'glsvlsi': 'Proceedings of the ACM Great Lakes Symposium on VLSI',
 'iscas': 'Proceedings of the IEEE International Symposium on Circuits and Systems',
 'dac'  : 'Proceedings of the ACM/IEEE Design Automation Conference',
 'pemc' : 'Proceedings of the IEEE International Power Electronics and Motion Control Conference'
@@ -101,6 +106,7 @@ FANCY_NAMES = {
 'MP'	: 'M. Popovich',
 'TJ'	: 'T. Jabbari',
 'VS'	: 'V. Srinivas',
+'GDM'	: '<a href="https://si2.epfl.ch/~demichel/">G. De Micheli</a>',
 }
 
 PLAIN_NAMES = {
@@ -115,6 +121,7 @@ PLAIN_NAMES = {
 'MP'	: 'M. Popovich',
 'TJ'	: 'T. Jabbari',
 'VS'	: 'V. Srinivas',
+'GDM'	: 'G. De Micheli',
 }
 
 PRESENTATIONS = '''

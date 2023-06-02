@@ -1,3 +1,14 @@
+glsvlsi23:
+    type: conf
+    book: glsvlsi
+    authors:
+        - me
+        - GDM
+    title: Compound Logic Gates for Pipeline Depth Minimization in Single Flux Quantum Integrated Systems
+    year: 2023
+    month: 6
+    doi: 10.1145/3583781.3590287
+    pdf: "papers/RSFQ_GLSVLSI23.pdf"
 graphs_in_vlsi_book:
     type: book
     authors:
