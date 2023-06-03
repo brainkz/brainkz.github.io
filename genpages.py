@@ -96,7 +96,11 @@ def format_book(key, entry):
 
 def format_entry(ieee_str, bib_str, entry):
     link = entry.get('url', f"https://doi.org/{entry.get('doi')}")
-    return '<p>\n' + ieee_str + f'\n<details>\n<summary>\n<u>Bibtex</u> <a href="{link}">Publisher</a>\n</summary>\n<span>' + bib_str + '\n</span>\n</details>\n</p>'
+    if 'pdf' in entry:
+        pdf_link = entry['pdf']
+        return '<p>\n' + ieee_str + f'\n<details>\n<summary>\n<u>Bibtex</u> <a href="{link}">Publisher</a> <a href="{pdf_link}">PDF</a>\n</summary>\n<span>' + bib_str + '\n</span>\n</details>\n</p>'
+    else:
+        return '<p>\n' + ieee_str + f'\n<details>\n<summary>\n<u>Bibtex</u> <a href="{link}">Publisher</a>\n</summary>\n<span>' + bib_str + '\n</span>\n</details>\n</p>'
 
 def format_list(file):
     with open(file) as f:
@@ -105,7 +109,7 @@ def format_list(file):
     conf = {}
     book = {}
     for key, d in data.items():
-        year = d.get('year',CURRENT_YEAR)
+        year = d.get('year', CURRENT_YEAR)
         month = d.get('month',CURRENT_MONTH)
         if d['type'] == 'journal':
             ieee, bib = format_journal_conf(key, d, True)
