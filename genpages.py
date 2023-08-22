@@ -2,7 +2,8 @@ import csv
 from yaml import load, dump, Loader, Dumper
 from requests.structures import CaseInsensitiveDict as CID
 from boiler_plate import HOME, HEADER, BODY_HEADER, NAVBAR, FOOTER, SKIP, JOURNALS,\
-CONFERENCES, JC, PLAIN_NAMES, FANCY_NAMES, MONTHS, ADDRESS, BIO, PRESENTATIONS, DISSERTATION, WELCOME
+CONFERENCES, JC, PLAIN_NAMES, FANCY_NAMES, MONTHS, ADDRESS, BIO, \
+PRESENTATIONS, DISSERTATION, WELCOME, make_header
 from datetime import date
 import os
 
@@ -28,6 +29,13 @@ def format_journal_conf(key, entry, is_journal):
 
     ieee_str += '"' + entry["title"] + '," '
     book = JC[entry['book']]
+    
+    doi = entry["doi"]
+    if not doi:
+        book = f"To appear in {book}"
+    else:
+        bib_str += f'doi = "{doi}",'
+    
     ieee_str += f"<i>{book}</i>"
     bib_str += f'{book_key} = "' + book + '",\n'
     if not entry.get('published', True):
@@ -40,8 +48,6 @@ def format_journal_conf(key, entry, is_journal):
     year = entry['year']
     ieee_str += f"{year}."
     bib_str += f'year = "{year}",\n'
-    doi = entry["doi"]
-    bib_str += f'doi = "{doi}",'
     print(ieee_str)
     print(bib_str.replace('\n','<br>&emsp;') + '<br>}')
     return ieee_str, bib_str.replace('\n','<br>&emsp;') + '<br>}'
@@ -131,7 +137,7 @@ def format_list(file):
 def make_pub(home=HOME):
     book_str, jrnl_str, conf_str = format_list('papers/Paper_Config.yml')
     with open(os.path.join(HOME,'pub.html'),'w') as f:
-        f.write(HEADER)
+        f.write(make_header("Publications"))
         f.write(NAVBAR)
         f.write(BODY_HEADER)
         f.write(SKIP)
@@ -144,7 +150,7 @@ def make_pub(home=HOME):
 
 def make_index(home=HOME):
     with open(os.path.join(HOME,'index.html'),'w') as f:
-        f.write(HEADER)
+        f.write(make_header("Homepage"))
         f.write(NAVBAR)
         f.write(BODY_HEADER)
         f.write(WELCOME)

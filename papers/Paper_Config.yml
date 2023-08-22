@@ -1,6 +1,18 @@
+vlsisoc23:
+    type: conf
+    book: vlsisoc23
+    authors:
+        - me
+        - ATC
+        - GDM
+    title: Synthesis of SFQ Circuits with Compound Gates
+    year: 2023
+    month: 10
+    pdf: "papers/VLSI_SoC_2023.pdf"
+    doi: ""
 glsvlsi23:
     type: conf
-    book: glsvlsi
+    book: glsvlsi23
     authors:
         - me
         - GDM
@@ -100,7 +112,7 @@ truncated:
     pdf: "papers/TCASI_Trunc.pdf" 
 dac_sprout:
     type: conf
-    book: dac
+    book: dac21
     authors:
         - me
         - ARoy
@@ -115,7 +127,7 @@ dac_sprout:
     pdf: "papers/SPROUT_DAC.pdf"
 routing:
     type: conf
-    book: iscas
+    book: iscas20
     authors:
         - me
         - ARoy
@@ -129,7 +141,7 @@ routing:
     pdf: "papers/ISCAS_Routing.pdf"
 versatile:
     type: conf
-    book: iscas
+    book: iscas18
     authors:
         - me
         - KX

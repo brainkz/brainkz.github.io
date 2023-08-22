@@ -6,7 +6,18 @@ HEADER = '''
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-  <title>Rassul Bairamkulov</title>
+  <title>Rassul Bairamkulov: Homepage</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- based on https://cdn.simplecss.org/simple.css -->
+</head>
+'''
+
+def make_header(append_str : str) -> str:
+  return f'''
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Rassul Bairamkulov | {append_str}</title>
   <link rel="stylesheet" href="css/style.css">
   <!-- based on https://cdn.simplecss.org/simple.css -->
 </head>
@@ -82,10 +93,12 @@ JOURNALS = {
 'tcasi': 'IEEE Transactions on Circuits and Systems I: Regular Papers',
 }
 CONFERENCES = {
-'glsvlsi': 'Proceedings of the ACM Great Lakes Symposium on VLSI',
-'iscas': 'Proceedings of the IEEE International Symposium on Circuits and Systems',
-'dac'  : 'Proceedings of the ACM/IEEE Design Automation Conference',
-'pemc' : 'Proceedings of the IEEE International Power Electronics and Motion Control Conference'
+'vlsisoc23': 'Proceedings of the IEEE/IFIP International Conference on Very Large Scale Integration, Sharjah, United Arab Emirates',
+'glsvlsi23': 'Proceedings of the ACM Great Lakes Symposium on VLSI, Knoxville, Tennessee',
+'iscas20': 'Proceedings of the IEEE International Symposium on Circuits and Systems, Virtual',
+'iscas18': 'Proceedings of the IEEE International Symposium on Circuits and Systems, Florence, Italy',
+'dac21'  : 'Proceedings of the ACM/IEEE Design Automation Conference, San Francisco, California',
+'pemc' : 'Proceedings of the IEEE International Power Electronics and Motion Control Conference, Varna, Bulgaria'
 }
 BOOKS = {
 'springer_cham' : 'Springer, Cham, Switzerland'
@@ -99,7 +112,7 @@ FANCY_NAMES = {
 'EGF'	: '<a href="http://www2.ece.rochester.edu/~friedman/">E. G. Friedman</a>',
 'AR'	: 'A. Ruderman',
 'YLF'	: 'Y. L. Familiant',
-'ARoy'	: 'A. Roy',
+'ARoy': 'A. Roy',
 'JSO'	: 'J. S. Ochoa',
 'KX'	: 'K. Xu',
 'MN'	: 'M. Nagarajan',
@@ -107,21 +120,23 @@ FANCY_NAMES = {
 'TJ'	: 'T. Jabbari',
 'VS'	: 'V. Srinivas',
 'GDM'	: '<a href="https://si2.epfl.ch/~demichel/">G. De Micheli</a>',
+'ATC'	: '<a href="https://aletempiac.github.io/">A. Tempia Calvino</a>',
 }
 
 PLAIN_NAMES = {
-'me'	: 'R. Bairamkulov',
-'EGF'	: 'E. G. Friedman',
-'AR'	: 'A. Ruderman',
-'YLF'	: 'Y. L. Familiant',
-'ARoy'	: 'A. Roy',
-'JSO'	: 'J. S. Ochoa',
-'KX'	: 'K. Xu',
-'MN'	: 'M. Nagarajan',
-'MP'	: 'M. Popovich',
-'TJ'	: 'T. Jabbari',
-'VS'	: 'V. Srinivas',
-'GDM'	: 'G. De Micheli',
+  'me'	: 'R. Bairamkulov',
+  'EGF'	: 'E. G. Friedman',
+  'AR'	: 'A. Ruderman',
+  'YLF'	: 'Y. L. Familiant',
+  'ARoy'	: 'A. Roy',
+  'JSO'	: 'J. S. Ochoa',
+  'KX'	: 'K. Xu',
+  'MN'	: 'M. Nagarajan',
+  'MP'	: 'M. Popovich',
+  'TJ'	: 'T. Jabbari',
+  'VS'	: 'V. Srinivas',
+  'GDM'	: 'G. De Micheli',
+  'ATC'	: 'A. Tempia Calvino',
 }
 
 PRESENTATIONS = '''
