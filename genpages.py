@@ -34,7 +34,7 @@ def format_journal_conf(key, entry, is_journal):
     if not doi:
         book = f"To appear in {book}"
     else:
-        bib_str += f'doi = "{doi}",'
+        bib_str += f'doi = "{doi}",\n'
     
     ieee_str += f"<i>{book}</i>"
     bib_str += f'{book_key} = "' + book + '",\n'

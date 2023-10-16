@@ -90,6 +90,7 @@ SKIP = '''
 
 JOURNALS = {
 'tcad' : 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems',
+'tvlsi' : 'IEEE Transactions on Very Large Scale Integration (VLSI) Systems',
 'tcasi': 'IEEE Transactions on Circuits and Systems I: Regular Papers',
 }
 CONFERENCES = {
@@ -116,6 +117,7 @@ FANCY_NAMES = {
 'JSO'	: 'J. S. Ochoa',
 'KX'	: 'K. Xu',
 'MN'	: 'M. Nagarajan',
+'NZ'	: 'N. Zhuldassov',
 'MP'	: 'M. Popovich',
 'TJ'	: 'T. Jabbari',
 'VS'	: 'V. Srinivas',
@@ -132,6 +134,7 @@ PLAIN_NAMES = {
   'JSO'	: 'J. S. Ochoa',
   'KX'	: 'K. Xu',
   'MN'	: 'M. Nagarajan',
+  'NZ'	: 'N. Zhuldassov',
   'MP'	: 'M. Popovich',
   'TJ'	: 'T. Jabbari',
   'VS'	: 'V. Srinivas',

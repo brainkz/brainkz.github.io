@@ -47,6 +47,21 @@ tcad_qucts:
     vol: 41
     num: 10
     pp: [3346, 3358]
+tvlsi_thermal:
+    type: journal
+    book: tvlsi
+    authors:
+        - NZ
+        - me
+        - EGF
+    title: Thermal Optimization of Hybrid Cryogenic Computing Systems
+    doi: 10.1109/TVLSI.2023.3271898
+    pdf: "papers/TVLSI_2023.pdf"
+    year: 2023
+    month: 9
+    vol: 31
+    num: 9
+    pp: [1339, 1346]
 tcad_sprout:
     type: journal
     book: tcad
