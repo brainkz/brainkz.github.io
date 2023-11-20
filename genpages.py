@@ -129,6 +129,7 @@ def format_list(file):
             ieee, bib = format_book(key, d)
             formatted_entry = format_entry(ieee, bib, d)
             book[formatted_entry] = year*12+month
+        print(bib)
     book_str = '<h2 id="book">Authored Book</h2>\n'  + '\n'.join(sorted(book, reverse=True, key=book.get))
     jrnl_str = '<h2 id="journal">Journal articles</h2>\n'  + '\n'.join(sorted(jrnl, reverse=True, key=jrnl.get))
     conf_str = '<h2 id="conference">Conference papers </h2><a href=#up>Return to top</a>\n' + '\n'.join(sorted(conf, reverse=True, key=conf.get))

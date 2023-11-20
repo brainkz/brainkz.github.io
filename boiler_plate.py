@@ -94,6 +94,7 @@ JOURNALS = {
 'tcasi': 'IEEE Transactions on Circuits and Systems I: Regular Papers',
 }
 CONFERENCES = {
+'aspdac24': 'Proceedings of the ACM/IEEE Asia South Pacific Design Automation Conference, Incheon, South Korea',
 'vlsisoc23': 'Proceedings of the IEEE/IFIP International Conference on Very Large Scale Integration, Sharjah, United Arab Emirates',
 'glsvlsi23': 'Proceedings of the ACM Great Lakes Symposium on VLSI, Knoxville, Tennessee',
 'iscas20': 'Proceedings of the IEEE International Symposium on Circuits and Systems, Virtual',

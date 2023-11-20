@@ -1,3 +1,30 @@
+
+tcad_vr_placement:
+    type: journal
+    book: tcad
+    authors:
+        - me
+        - EGF
+    title: Power Aware Placement of On-Chip Voltage Regulators
+    doi: ""
+    pdf: "papers/TCAD_Power_Aware.pdf"
+    year: 2024
+    # month: 10
+    # vol: 41
+    # num: 10
+    # pp: [3346, 3358]
+
+aspdac24:
+    type: conf
+    book: aspdac24
+    authors:
+        - me
+        - GDM
+    title: Towards Multiphase Clocking in Single-Flux Quantum Systems
+    year: 2024
+    month: 1
+    pdf: "papers/ASP_DAC_2024.pdf"
+    doi: ""
 vlsisoc23:
     type: conf
     book: vlsisoc23
