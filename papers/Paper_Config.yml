@@ -36,7 +36,7 @@ vlsisoc23:
     year: 2023
     month: 10
     pdf: "papers/VLSI_SoC_2023.pdf"
-    doi: ""
+    doi: "10.1109/VLSI-SoC57769.2023.10321853"
 glsvlsi23:
     type: conf
     book: glsvlsi23
