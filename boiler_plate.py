@@ -68,7 +68,7 @@ WELCOME = '''
 
 <p>Prior to my doctoral studies, I received my B.Eng. in Electrical and Electronic Engineering at <a href="https://nu.edu.kz">Nazarbayev University</a>, Astana, Kazakhstan.</p>
 
-<p>For more information, please see the <a href="pub.html">publications</a> section or my profile at <a href="https://scholar.google.com/citations?hl=en&user=RgDE-cIAAAAJ">Google Scholar</a>.</p>
+<p>For more information, please see my <a href="CV_Main.html">CV</a>, <a href="pub.html">list of my publications</a>, or my profile at <a href="https://scholar.google.com/citations?hl=en&user=RgDE-cIAAAAJ">Google Scholar</a>.</p>
 '''
 
 BIO = '''
