@@ -1,0 +1,142 @@
+Rassul Bairamkulov
+
+Email: rassul.bairamkulov@epfl.ch 
+LinkedIn: http://www.linkedin.com/in/brainkz 
+GitHub: https://github.com/
+
+----------------------------------------------------
+Experience
+
+August 2022 – Present
+Postdoctoral scholar
+EPFL, Lausanne, Vaud, Switzerland
+- Developed a C++17 module for computing the superconductive logic gate library optimized for area and delay. Parallelized the script to run on 48-core computing cluster;
+- Developed the tool for logic synthesis and retiming of multiphase logic networks. Integrated the mockturtle logic synthesis library (C++17) with Google OR-tools (Python 3);
+- Developed a Python wrapper script for JoSIM (superconductive SPICE simulator) to support named subcircuit parameters (similar to HSPICE).
+
+May 2020 - August 2020
+Intern (Design Automation)
+Qualcomm Inc., San Diego, California, USA (Remote)
+- Developed Python tool for automated PCB-level power delivery network layout synthesis;
+- Reverse-engineered an undocumented layout description format to automatically generate PCB layouts;
+- Enabled fast PCB prototype generation and comprehensive early power delivery exploration.
+
+May 2018 - August 2018
+Intern (Power Integrity)
+Qualcomm Inc., San Diego, California, USA
+- Seamlessly integrated MATLAB with HSPICE to optimize power delivery network parameters based on target power-performance-area specifications;
+- Efficient early design space exploration for power delivery in high-performance integrated circuits.
+
+June 2017 - June 2022
+Research Assistant
+University of Rochester, Rochester, New York, USA
+- Developed EDA methodologies and software for VLSI power delivery network design, early system-level exploration, and layout synthesis (funded by Qualcomm);
+- Developed algorithms and software for clock distribution network synthesis for superconductive Rapid Single Flux Quantum integrated circuits (funded by Synopsys);
+- Developed Infinity Mirror Technique for fast and accurate analysis of voltage drop within large grids (funded by National Science Foundation).
+
+Fall 2017 - Fall 2022
+Teaching Assistant
+University of Rochester, Rochester, New York, USA
+- Graduate-level course ECE461 "Introduction to VLSI";
+- Using Cadence Virtuoso, taught undergraduate and graduate students design and analysis of analog and digital circuits, layout design, design rule checking, and layout-versus-schematic;
+- Developed, distributed, and graded the homework, laboratory, and examination assignments.
+
+November 2014 - May 2016
+Undergraduate Research Assistant
+Nazarbayev University
+Astana, Kazakhstan
+- Developed MATLAB tool for minimizing total harmonic distortion (THD) in multilevel voltage converters
+
+----------------------------------------------------
+
+Education
+
+June 2016 - June 2022
+M.S./Ph.D. in Electrical and Computer Engineering
+University of Rochester, Rochester, New York, USA
+- Advisor: Prof. E. G. Friedman
+- Thesis: Graph Algorithms for VLSI Power and Clock Networks
+
+August 2012 - May 2016
+B.Eng. in Electrical and Electronic Engineering
+Nazarbayev University, Astana, Kazakhstan
+- Supervisor: Prof. A. Ruderman
+- Thesis: Analysis of Natural Voltage Balancing in Single-Phase Multilevel Power Converters
+
+----------------------------------------------------
+
+Awards
+
+January, 2024
+Best Paper Award Nominee
+ACM/IEEE Asia and South Pacific Design Automation Conference, Incheon, South Korea
+- Awarded for the work: "Towards Multiphase Clocking in Single-Flux Quantum Systems" by R. Bairamkulov and G. De Micheli
+
+October, 2023
+Best Paper Award
+IFIP/IEEE Conference on Very Large Scale Integration, Sharjah, UAE
+- Awarded for the work: "Synthesis of SFQ Circuits with Compound Gates" by R. Bairamkulov, A. Tempia Calvino, and G. De Micheli
+
+----------------------------------------------------
+
+Service
+
+Technical Program Committee
+2024 ACM/IEEE Design Automation Conference, San Francisco, CA
+
+Technical Program Committee
+2024 IEEE Panhellenic Conference on Electronics and Telecommunications, Thessaloniki, Greece
+
+Best Paper Award Committee
+2023 ACM Great Lakes Symposium on VLSI, Knoxville, TN, USA
+
+Session Chair
+2023 ACM Great Lakes Symposium on VLSI, Knoxville, TN, USA
+
+----------------------------------------------------
+
+Skills
+
+Computer languages: 
+    - Python, 
+    - C++, 
+    - Matlab/Octave, 
+    - Mathematica, 
+    - bash, 
+    - Verilog
+
+Natural languages: 
+    - English - fluent, 
+    - Russian - native, 
+    - Kazakh - fluent, 
+    - French - intermediate
+
+CAD/EDA tools: 
+    - HSPICE
+    - Cadence Virtuoso
+    - Ansys SIWave
+    - Keysight ADS
+    - Simulink
+
+----------------------------------------------------
+
+Publications
+
+Authored Book
+* R. Bairamkulov and E. G. Friedman. Graphs in VLSI. Springer Nature, Cham, Switzerland,
+2023. doi: 10.1007/978-3-031-11047-4.
+
+Journal Articles
+* R. Bairamkulov and E. G. Friedman. "Power Aware Placement of On-Chip Voltage Regulators". In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (2024).
+* N. Zhuldassov, R. Bairamkulov, and E. G. Friedman. "Thermal Optimization of Hybrid Cryogenic Computing Systems". In: IEEE Transactions on Very Large Scale Integration Systems (2024). doi: 10.1109/TVLSI.2023.3271898.
+* R. Bairamkulov, A. Roy, M. Nagarajan, V. Srinivas, and E. G. Friedman. "SPROUT - Smart Power Routing Tool for Board-Level Exploration and Prototyping". In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 41.7 (July 2022), pp. 2263–2275. doi: 10.1109/TCAD.2021.3101411.
+* R. Bairamkulov, T. Jabbari, and E. G. Friedman. "QuCTS -— Single-Flux Quantum Clock Tree Synthesis". In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 41.10 (Oct. 2021), pp. 3346–3358. doi: 10.1109/TCAD.2021.3123141.
+* R. Bairamkulov and E. G. Friedman. "Effective Resistance of Finite Two-Dimensional Grids Based on Infinity Mirror Technique". In: IEEE Transactions on Circuits and Systems I: Regular Papers 67.9 (Sept. 2020), pp. 3224–3233. doi: 10.1109/TCSI.2020.2985652.
+* R. Bairamkulov and E. G. Friedman. "Effective Resistance of Two-Dimensional Truncated Infinite Mesh Structures". In: IEEE Transactions on Circuits and Systems I: Regular Papers 66.11 (Nov. 2019), pp. 4368–4376. doi: 10.1109/TCSI.2019.2933749.
+* R. Bairamkulov, K. Xu, M. Popovich, J. S. Ochoa, V. Srinivas, and E. G. Friedman. "Power Delivery Exploration Methodology Based on Constrained Optimization". In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 39.9 (Sept. 2019), pp. 1916–1924. doi: 10.1109/TCAD.2019.2925397.
+
+Conference Proceedings
+* R. Bairamkulov, M. Yu, and G. De Micheli. "Unleashing the Power of T1-cells in SFQ Arithmetic Circuits". In: Proceedings of the ACM/IEEE Design, Automation and Test in Europe Conference and Exhibition, Valencia, Spain. Mar. 2024.
+* N. Zhuldassov, R. Bairamkulov, and E. G. Friedman. "Thermal Optimization of Hybrid Cryogenic Computing Systems". In: Government Microcircuit Applications & Critical Technology Conference (GOMACTech), Charleston, SC. Mar. 2024.
+* R. Bairamkulov and G. De Micheli. "Towards Multiphase Clocking in Single-Flux Quantum Systems". In: Proceedings of the ACM/IEEE Asia South Pacific Design Automation Conference, Incheon, South Korea. Jan. 2024.
+* R. Bairamkulov, A. Tempia Calvino, and G. De Micheli. "Synthesis of SFQ Circuits with Compound Gates". In: Proceedings of the IEEE/IFIP VLSI-SoC Conference. Oct. 2023. doi: 10.1109/VLSI-SoC57769.2023.10321853.
