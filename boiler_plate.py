@@ -26,8 +26,8 @@ def make_header(append_str : str) -> str:
 NAVBAR = '''
 <nav>
   <a href="index.html">Home        </a>
-  <a href="pub.html"  >Publications</a>
-  <a href="Rassul_Bairamkulov_CV_202309.pdf"  > CV    </a>
+  <a href="pub.html" >Publications</a>
+  <a href="CV_Main.html" > CV    </a>
 </nav>
 '''
 

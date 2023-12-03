@@ -53,7 +53,7 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-columns:
-    1fr min(45rem, 90%) 1fr;
+    1fr min(50rem, 90%) 1fr;
   margin: 0;
 }
 
@@ -103,7 +103,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 0.3rem;
 }
 
@@ -439,8 +439,9 @@ input[type="file"] {
 
 /* Misc body elements */
 hr {
-  color: var(--border);
-  border-top: 1px;
+  /* color: var(--border); */
+  color: #000000;
+  border-top: 0px;
   margin: 1rem auto;
 }
 
@@ -516,4 +517,35 @@ pre code {
   background: none;
   margin: 0;
   padding: 0;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.position {
+  text-align: left;
+  font-weight: bold;
+}
+.time {
+  text-align: right;
+}
+.company {
+  text-align: left;
+  font-style: italic;
+}
+.location {
+  text-align: right;
+  font-style: italic;
+}
+
+ul {
+  /* list-style-position: inside; */
+  padding-left: 15pt;
+}
+
+.icon {
+  height: 1em;
+  vertical-align: middle;
 }
