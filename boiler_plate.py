@@ -166,6 +166,7 @@ DISSERTATION = '''
 <summary>
 <u>Bibtex</u>
 <a href="papers/Thesis_PQ.pdf">PDF</a>
+<a href="http://hdl.handle.net/1802/36890">UR Research Repository</a>
 <a href="https://dl.acm.org/doi/book/10.5555/AAI29259269">ACM</a>
 <a href="https://www.proquest.com/docview/2708414430?parentSessionId=kJ3vHKHHaTgHThkZUqwg3O96bNcasUUodmcR5E2mK38%3D">ProQuest</a>
 </summary>
